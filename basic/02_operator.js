@@ -36,13 +36,13 @@
     // x = x % y // x %=y
     // console.log(x)
 
-    let tbl = '<table border=1>'
-    tbl += '<tr>'
-    tbl += '<td>1</td><td>2</td><td>3</td>'
-    tbl += '</tr>'
-    tbl += '</table>'
+    // let tbl = '<table border=1>'
+    // tbl += '<tr>'
+    // tbl += '<td>1</td><td>2</td><td>3</td>'
+    // tbl += '</tr>'
+    // tbl += '</table>'
 
-    document.write(tbl)
+    // document.write(tbl)
 }
 
 // 4. 증감 연산자
@@ -123,6 +123,17 @@
     console.log(result)
 }
 
+// 적정체중 : (신장 - 100) * 0.9
+
+{
+    const name = prompt('당신의 이름은?')
+    const height = prompt('당신의 키는?')
+    const weight = prompt('당신의 체중은?')
+    const normalWeight = (height-100) * 0.9
+    const result = weight >= normalWeight - 5 && weight <= normalWeight +5
+    const message = result ? '적정체중입니다.' : '적정체중이 아닙니다.'
+    document.write(`${name}님은 ${message}`)
+}
 
 
 
