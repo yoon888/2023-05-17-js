@@ -70,3 +70,9 @@ console.log(sum2)
 const minus2 = (a,b) => a-b //function생략하는대신(), {}생락하는대신 =>
 const sum3 = minus2(50,25)
 console.log(sum3)
+
+
+
+
+
+
